@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navigation {
+    background-color: aquamarine;
+    color: black;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.navigation .nav-pills {
+    text-align: center;
+}
+
+.navigation .link {
+    color: black;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+}
+
+.input-angle,label {
+    display: block;
+    margin: 1rem 1rem;
+}
+
+button {
+    margin: 1rem 1rem;
+}
+
+h1 {
+    margin-left: 1rem; 
+}
+
+button {
+    border-radius: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+#output {
+    padding: 1rem;
+}

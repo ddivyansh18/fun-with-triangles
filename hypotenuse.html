@@ -4,15 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hypotenuse.css">
     <title>Hypotenuse</title>
 </head>
 <body>
+
+    <nav class="navigation container">
+        <div class="nav-brand">Fun With Triangles</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/isTriangle.html">Is Triangle ?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/area.html">Area</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/quiz.html">Quiz</a>
+            </li>
+        </ul>
+    </nav>    
+
+
     <h1>Calculate Hypotenuse</h1>
-    <label> a = </label>
+    <label> First side : </label>
     <input type="number" class="side-input">
-    <label> b = </label>
+    <label> Second Side : </label>
     <input type="number" class="side-input">
-    <button id="button"> Calculate Hypotenuse</button>
+    <button id="button"> Calculate </button>
     <div id="output"></div>
     <script src="hypotenuse.js"></script>
 </body>

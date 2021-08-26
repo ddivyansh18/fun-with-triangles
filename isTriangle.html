@@ -5,16 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fun with Triangles</title>
+    <link rel="stylesheet" href="isTriangle.css">
 </head>
 <body>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun With Triangles</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/isTriangle.html">Is Triangle ?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/area.html">Area</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/quiz.html">Quiz</a>
+            </li>
+        </ul>
+    </nav>
+
+
     <h1>Is Triangle ?</h1>
-    <label for="angle1"> angle1</label>
+    <label for="angle1"> Angle1 :</label>
     <input type="number" class="input-angle">
-    <label for="angle2"> angle2</label>
+    <label for="angle2"> Angle2 :</label>
     <input type="number" class="input-angle">
-    <label for="angle3"> angle3</label>
+    <label for="angle3"> Angle3 :</label>
     <input type="number" class="input-angle">
-    <button id="btn-is-triangle">Is Triangle ?</button>
+    <button id="btn-is-triangle">Check</button>
     <h2 id="output"></h2>
     <script src="isTriangle.js"></script>
 </body>
